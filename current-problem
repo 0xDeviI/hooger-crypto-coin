@@ -1,0 +1,2 @@
+1. Hybrid encryption and decryption on both server and client side
+    ... AES -> RSA/ECB/OAEP

@@ -1,0 +1,118 @@
+{
+    "price_history":{
+        "1":{
+            "id":"initial_price",
+            "price":100,
+            "ts_time":"2022-04-25 00:00:00.000000",
+            "ts_timestamp":1650844800,
+            "ts_type":"chain_initialization"
+        },
+        "2":{
+            "id":"879DF350-3F15-414A-9265-EE40C3077CE2",
+            "price":100.0,
+            "ts_time":"2022-05-12 03:49:07.032911",
+            "ts_timestamp":1652311147,
+            "ts_type":"buy_coin"
+        },
+        "3":{
+            "id":"0AC814AF-3266-4A3E-AAAB-CC289F44BD99",
+            "price":108.0,
+            "ts_time":"2022-05-12 09:04:20.857661",
+            "ts_timestamp":1652330060,
+            "ts_type":"sell_coin"
+        },
+        "4":{
+            "id":"3740491E-C888-430B-99A8-EBEE2F64EB9B",
+            "price":118.0,
+            "ts_time":"2022-05-12 09:11:40.587313",
+            "ts_timestamp":1652330500,
+            "ts_type":"buy_coin"
+        },
+        "5":{
+            "id":"71DA91F8-527A-448C-AC1C-35DAA89FCF16",
+            "price":118.0,
+            "ts_time":"2022-05-12 09:12:23.819971",
+            "ts_timestamp":1652330543,
+            "ts_type":"sell_coin"
+        }
+    },
+    "transactions":{
+        "1":{
+            "amount":"12.34",
+            "hooger_price":"100",
+            "receiver":"3ePEQ5kExbdP9iXypzZxLnVy66PPtWQaK51xwQhJhvNSA82jKE4gmZE",
+            "sender":"3eqMLAdg5TZGohrXWKRniK291G4txTWMqsMoYUARVe79ZHsDdNxzQtZ",
+            "ts_id":"3EAD18C5-FFFB-4776-890D-FC7736FEABC9",
+            "ts_time":"2022-05-12 03:49:06.598037",
+            "ts_timestamp":1652311146,
+            "ts_type":"buy_coin"
+        },
+        "2":{
+            "amount":1,
+            "hooger_price":108,
+            "receiver":"3eqMLAdg5TZGohrXWKRniK291G4txTWMqsMoYUARVe79ZHsDdNxzQtZ",
+            "sender":"3ePEQ5kExbdP9iXypzZxLnVy66PPtWQaK51xwQhJhvNSA82jKE4gmZE",
+            "ts_id":"01D417DD-BAD0-434D-8E57-55070C43BD55",
+            "ts_time":"2022-05-12 08:43:18.133394",
+            "ts_timestamp":1652328798,
+            "ts_type":"sell_coin"
+        },
+        "3":{
+            "amount":"10",
+            "hooger_price":108,
+            "receiver":"3eqMLAdg5TZGohrXWKRniK291G4txTWMqsMoYUARVe79ZHsDdNxzQtZ",
+            "sender":"3ePEQ5kExbdP9iXypzZxLnVy66PPtWQaK51xwQhJhvNSA82jKE4gmZE",
+            "ts_id":"6E6F2269-D45B-4DC3-BCC5-24C7A2D340B3",
+            "ts_time":"2022-05-12 09:04:20.681657",
+            "ts_timestamp":1652330060,
+            "ts_type":"sell_coin"
+        },
+        "4":{
+            "amount":180,
+            "hooger_price":118,
+            "receiver":"3ePEQ5kExbdP9iXypzZxLnVy66PPtWQaK51xwQhJhvNSA82jKE4gmZE",
+            "sender":"3eqMLAdg5TZGohrXWKRniK291G4txTWMqsMoYUARVe79ZHsDdNxzQtZ",
+            "ts_id":"40811988-1BAC-40EE-A46E-8E8912B88C72",
+            "ts_time":"2022-05-12 09:11:39.782429",
+            "ts_timestamp":1652330499,
+            "ts_type":"buy_coin"
+        },
+        "5":{
+            "amount":"180",
+            "hooger_price":118,
+            "receiver":"3eqMLAdg5TZGohrXWKRniK291G4txTWMqsMoYUARVe79ZHsDdNxzQtZ",
+            "sender":"3ePEQ5kExbdP9iXypzZxLnVy66PPtWQaK51xwQhJhvNSA82jKE4gmZE",
+            "ts_id":"9BD58B3F-3B8E-4B4D-ACEB-25B838738ED6",
+            "ts_time":"2022-05-12 09:12:23.755969",
+            "ts_timestamp":1652330543,
+            "ts_type":"sell_coin"
+        }
+    },
+    "transactions_history":{
+        "1":{
+            "id":"latest_transtion",
+            "transaction":{
+                "amount":"180",
+                "hooger_price":118,
+                "receiver":"3eqMLAdg5TZGohrXWKRniK291G4txTWMqsMoYUARVe79ZHsDdNxzQtZ",
+                "sender":"3ePEQ5kExbdP9iXypzZxLnVy66PPtWQaK51xwQhJhvNSA82jKE4gmZE",
+                "ts_id":"9BD58B3F-3B8E-4B4D-ACEB-25B838738ED6",
+                "ts_time":"2022-05-12 09:12:23.755969",
+                "ts_timestamp":1652330543,
+                "ts_type":"sell_coin"
+            }
+        }
+    },
+    "users":{
+        "1":{
+            "account_id":"CFBE2FBA-0699-4800-B896-E495A4E5EC32",
+            "password":"3n+ODyqIk8bvqYePdG7UVw8TlVCyq0AFvyGoH9Tqd23THqt7+DneU0JRlqiauASPOdumc/eRAszU/5FUDaC1hBP9Zq3T1No1TkKUpBZXWGAgO5cLq2YCXXK3nV4Hqhfr1FD/vc/i2ygqWo7K7nEzNNyzfrd1pXmeBcsa96C6DNY=",
+            "username":"hgr_server"
+        },
+        "3":{
+            "account_id":"4CCB25ED-0625-430D-B464-3071DBD5047F",
+            "password":"cfd040b1d704bd81051564c408c1df44b6cd21ab222b3e57bf0798681baed96d93665df107fdbff3acb3c8207d11fea44380654036ee48c2836cc8f7f03627a1",
+            "username":"armin"
+        }
+    }
+}
