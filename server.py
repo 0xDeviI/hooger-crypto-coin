@@ -336,7 +336,7 @@ def main():
     if (is_port_in_use(port)):
         port = random.randint(5000, 6000)
     print(f'{Fore.GREEN}Server running on port {port}{Style.RESET_ALL}')
-    app.run(host='192.168.43.17', port=port, debug=True)
+    app.run(host='localhost', port=port, debug=True)
 
 def format_public_key(pub_key):
     n = 64
