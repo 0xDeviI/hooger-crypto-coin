@@ -44,6 +44,10 @@ def main():
     initilize_server(db)
     initilize_price(db)
     
+    @app.route('/')
+    def index():
+        return "Tadaa! Hooger Ledger is up and running!"
+    
     @app.route('/api/v1/login', methods=['POST'])
     def login():
         username = request.json['username']
